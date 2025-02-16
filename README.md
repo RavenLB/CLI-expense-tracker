@@ -21,7 +21,7 @@ It is inspired by the [Expense Tracker](https://roadmap.sh/projects/expense-trac
 ## Installation
 1. **Clone the Repository**:
    ```sh
-   git clone https://
+   git clone https://RavenLB/CLI-expense-tracker
    cd expense-tracker-cli
    
 2. **Create and Activate a Virtual Environment**:
