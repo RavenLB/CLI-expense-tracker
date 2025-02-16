@@ -43,7 +43,6 @@ def save_expenses(expenses):
 def get_next_id():
     """
     Returns the next available ID for a new expense.
-    If no expenses exist, it returns 1.
     """
     expenses = load_expenses()
     if not expenses:
@@ -108,9 +107,6 @@ def get_index(id):
 
     Args:
         id (int): The ID of the expense.
-
-    Returns:
-        int: The index of the expense if found, otherwise -1.
     """
     expenses = load_expenses()
     for index, expense in enumerate(expenses):
